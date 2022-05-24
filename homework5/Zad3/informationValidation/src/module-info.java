@@ -1,0 +1,4 @@
+module informationValidation {
+
+    exports validation;
+}

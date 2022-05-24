@@ -1,0 +1,35 @@
+.text-field {
+    -fx-font-size: 15px;
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: "black";
+}
+
+#btnRegistration {
+    -fx-font-size: 15px;
+    -fx-margin: 10 10 10 15;
+    -fx-font-weight: bold;
+}
+
+#lblUsername {
+    -fx-font-size: 12;
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: #ff0000;
+}
+
+#lblPhoneNumber {
+    -fx-font-size: 12;
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: #ff0000;
+}
+
+#lblEmail {
+    -fx-font-size: 12;
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: #ff0000;
+}
+
+#lblPassword {
+    -fx-font-size: 12;
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: #ff0000;
+}

@@ -1,0 +1,28 @@
+.button {
+    -fx-font-size: 15;
+}
+
+.text-field {
+    -fx-font-size: 15;
+    -fx-font-style: bold;
+}
+
+#btnM {
+    -fx-font-size: 15;
+    -fx-font-style: bold;
+}
+
+#btnMCminus {
+    -fx-font-size: 15;
+    -fx-font-style: bold;
+}
+
+#btnMminus {
+    -fx-font-size: 15;
+    -fx-font-style: bold;
+}
+
+#btnMplus {
+    -fx-font-size: 15;
+    -fx-font-style: bold;
+}
