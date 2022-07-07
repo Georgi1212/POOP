@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gametest.CardsController">
+   <children>
+      <GridPane layoutX="448.0" layoutY="30.0" prefHeight="317.0" prefWidth="275.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btnDealHand" mnemonicParsing="false" onAction="#btnDealHandOnAction" prefHeight="37.0" prefWidth="341.0" text="Изтегли ръка от карти" />
+            <Button fx:id="btnKingQueen" mnemonicParsing="false" onAction="#btnKingQueenOnAction" prefHeight="32.0" prefWidth="275.0" text="Двойка KING и QUEEN" GridPane.rowIndex="2" />
+            <Button fx:id="btn4Ace" mnemonicParsing="false" onAction="#btn4AceOnAction" prefHeight="31.0" prefWidth="275.0" text="Има 4 ACE" GridPane.rowIndex="3" />
+            <Button fx:id="btnQuit" mnemonicParsing="false" onAction="#btnQuitOnAction" prefHeight="29.0" prefWidth="275.0" text="Край" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="11.0" layoutY="24.0" prefHeight="317.0" prefWidth="415.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextArea fx:id="txaDealHand" prefHeight="132.0" prefWidth="395.0">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </TextArea>
+            <TextArea fx:id="txaOtherActions" prefHeight="154.0" prefWidth="395.0" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </TextArea>
+         </children>
+      </GridPane>
+      <Label fx:id="lblKoz" layoutX="23.0" layoutY="14.0" />
+   </children>
+</AnchorPane>
